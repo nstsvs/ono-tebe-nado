@@ -1,1 +1,12 @@
-/* место для вашего кода */
+@import './global.css';
+@import './components/header.css';
+@import './components/address.css';
+@import './components/cover.css';
+@import './components/lots.css';
+@import './components/card.css';
+@import './components/about.css';
+@import './components/footer.css';
+@import './components/layout.css';
+@import './components/bet-button.css';
+@import './components/aligned-text.css';
+@import './components/link-border.css';

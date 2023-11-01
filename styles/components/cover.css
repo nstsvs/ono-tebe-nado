@@ -1,0 +1,42 @@
+.cover {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-image: url('../../images/cover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+}
+
+.cover__wrapper {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+	padding: 165px 50px 50px 50px;
+}
+
+.cover__title {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 1.15;
+	letter-spacing: 30px;
+	text-transform: uppercase;
+}
+
+.cover__description {
+	display: flex;
+	align-items: center;
+	gap: 78px;
+	align-self: flex-end;
+	padding-top: 135px;
+}
+
+.cover__description-text {
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.28;
+	text-transform: uppercase;
+	word-spacing: 18px;
+}

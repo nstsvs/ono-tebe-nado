@@ -1,0 +1,38 @@
+.header {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+  padding: 92px 49px 92px 51px;
+}
+
+.header__links-list {
+	display: flex;
+	gap: 32px;
+}
+
+.header__links-list-item {
+	color: #000000;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: normal;
+	list-style-type: circle;
+	white-space: normal;
+}
+
+.header__links-list-item:first-of-type {
+	list-style-type: none;
+}
+
+.header__logo {
+	display: block;
+	justify-self: center;
+	width: 100%;
+	max-width: 148px;
+	height: 100%;
+	min-height: 105px;
+	background-image: url('../../images/logo-black.svg');
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: contain;
+}
+

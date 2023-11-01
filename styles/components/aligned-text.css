@@ -1,0 +1,22 @@
+.aligned-text {
+	display: flex;
+}
+
+.letter-spacing-extended {
+	letter-spacing: 60px;
+}
+
+.aligned-text_center {
+	justify-content: center;
+	padding: 20px 0 20px 0;
+	line-height: 1;
+}
+
+.aligned-text_right {
+	justify-content: flex-end;
+	line-height: 1;
+}
+
+.no-letter-spacing {
+	letter-spacing: 0;
+}
