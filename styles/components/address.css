@@ -1,16 +1,16 @@
-.address-list {
-	justify-self: end;
-	max-width: 240px;
-	list-style: none;
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  max-width: 240px;
+  font-size: 18px;
+  line-height: 1.35;
 }
 
-.address-list_no-justify {
-	justify-self: normal;
+.address_no-justify {
+  justify-self: normal;
 }
 
-.address-list__item {
-	color: #000000;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.35;
+.address__link {
+  display: block;
 }
