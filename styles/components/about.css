@@ -1,51 +1,48 @@
 .about {
-	padding: 181px 50px 0 50px;
+  padding: 181px 50px 0 50px;
 }
 
 .about__wrapper {
-	display: grid;
-	grid-template-columns: 430px 1fr;
+  display: grid;
+  grid-template-columns: 430px 1fr;
 }
 
 .about__logo {
   display: flex;
-	justify-self: center;
+  justify-self: center;
   justify-content: center;
   max-height: 240px;
-	border-radius: 50%;
-	padding: 63px 46px 63px 46px;
-	background-color: #000000;
+  border-radius: 50%;
+  padding: 63px 46px 63px 46px;
+  background-color: #000;
 }
 
 .about__logo-image {
-	max-width: 148px;
-	min-height: 114px;
+  max-width: 148px;
+  min-height: 114px;
 }
 
 .about__column {
-	display: flex;
-	flex-direction: column;
-	padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
 }
 
 .about__title {
-	padding: 100px 0 100px 0;
-	color: #000000;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: normal;
-	text-transform: uppercase;
+  padding: 100px 0 100px 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .about__text-wrapper {
-	display: flex;
-	flex-direction: column;
-	gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .about__text {
-	color: #000000;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: normal;
+  font-size: 20px;
+  line-height: normal;
 }
